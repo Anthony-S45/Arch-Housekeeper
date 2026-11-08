@@ -13,6 +13,14 @@ Root actions run through `pkexec`, so you get your desktop's normal password pro
 
 ## Install as a package (recommended)
 
+From the AUR, with an AUR helper:
+
+```bash
+yay -S arch-housekeeper
+```
+
+Or build the same package yourself from `packaging/PKGBUILD` (it downloads the tagged release from GitHub):
+
 ```bash
 cd packaging
 makepkg -si
