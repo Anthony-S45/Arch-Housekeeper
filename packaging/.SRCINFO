@@ -1,0 +1,21 @@
+pkgbase = arch-housekeeper
+	pkgdesc = Qt tool to remove applications and orphans and clean the pacman cache
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/Anthony-S45/Arch-Housekeeper
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-only
+	makedepends = cmake
+	makedepends = git
+	depends = qt6-base
+	depends = pacman-contrib
+	depends = polkit
+	depends = diffutils
+	depends = gcc-libs
+	depends = glibc
+	optdepends = xdg-user-dirs: find a localized Desktop folder for exports
+	source = arch-housekeeper::git+https://github.com/Anthony-S45/Arch-Housekeeper.git#tag=v1.1
+	sha256sums = SKIP
+
+pkgname = arch-housekeeper
