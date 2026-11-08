@@ -1,0 +1,15 @@
+# CMake build output
+build/
+cmake-build-*/
+
+# makepkg output (run from packaging/)
+packaging/src/
+packaging/pkg/
+packaging/*.pkg.tar.*
+packaging/*.log
+
+# Editors
+.vscode/
+.idea/
+*.user
+*~
